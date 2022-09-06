@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/ABBA.dir/runtest.cpp.o  -o ABBA  libabba.a 

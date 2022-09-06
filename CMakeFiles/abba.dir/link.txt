@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabba.a  CMakeFiles/abba.dir/src/ABBA.cpp.o CMakeFiles/abba.dir/src/compress.cpp.o CMakeFiles/abba.dir/src/digitization.cpp.o CMakeFiles/abba.dir/src/global_func.cpp.o CMakeFiles/abba.dir/src/operator_loader.cpp.o
+/usr/bin/ranlib libabba.a

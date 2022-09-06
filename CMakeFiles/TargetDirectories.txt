@@ -1,0 +1,4 @@
+/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/rebuild_cache.dir
+/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/edit_cache.dir
+/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/ABBA.dir
+/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/abba.dir
