@@ -18,6 +18,8 @@ After that, we can include the ``cabba`` library with ``#include "ABBA.h"`` in i
 
 ### API
 
+The below shows the use of ``cabba`` to perform symbolic transform:
+
 ```c++
 #include <iostream>
 #include <vector>
@@ -43,9 +45,6 @@ int main(){
     
     return 0;
  }
- 
- 
-    
 ```
 
 
