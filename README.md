@@ -13,6 +13,7 @@ cd cabba
 cmake . # or mkdir build -> cd build -> cmake ../
 make 
 cp *.a /usr/lib 
+cp include/*.h /usr/include 
 ```
 
 After that, we can include the ``cabba`` library with ``#include "ABBA.h"`` in include folder.
