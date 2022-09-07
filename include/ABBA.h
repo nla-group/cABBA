@@ -32,7 +32,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 * 
-* fABBA -- an accelerated ABBA based on adaptive polygonal chain approximation of time series
+* ABBA -- an accelerated ABBA based on adaptive polygonal chain approximation of time series
 *
 *  Parameters
 *  ----------    
@@ -78,7 +78,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <string>
 #include "digitization.h"
 
-class ABBA_MODEL {
+class ABBA {
     protected:
         double tol; double alpha;
         std::string sorting;
@@ -86,13 +86,13 @@ class ABBA_MODEL {
         Model parameters;
 
     public:
-        ABBA_MODEL(double _tol=0.5, double _alpha=0.5, std::string _sorting="lexi",
+        ABBA(double _tol=0.5, double _alpha=0.5, std::string _sorting="lexi",
                     int _scl=1, int _maxlen=std::numeric_limits<int>::max(), bool _verbose=true);
                     
         std::vector<std::string> fit_transform(std::vector<double>&);
         std::vector<double> inverse_transform(double&);
         void print_parameters();
-        ~ABBA_MODEL(){};
+        ~ABBA(){};
 };
 
 

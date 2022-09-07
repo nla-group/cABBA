@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chenxinye/Desktop/TESTSNN/cABBA/runtest.cpp
+/home/chenxinye/Desktop/TESTSNN/cabba/runtest.cpp
 iostream
 -
 vector
@@ -14,11 +14,11 @@ vector
 chrono
 -
 gents.h
-/home/chenxinye/Desktop/TESTSNN/cABBA/gents.h
+/home/chenxinye/Desktop/TESTSNN/cabba/gents.h
 csvReader.h
-/home/chenxinye/Desktop/TESTSNN/cABBA/csvReader.h
+/home/chenxinye/Desktop/TESTSNN/cabba/csvReader.h
 ABBA.h
-/home/chenxinye/Desktop/TESTSNN/cABBA/ABBA.h
+/home/chenxinye/Desktop/TESTSNN/cabba/ABBA.h
 
 include/ABBA.h
 vector

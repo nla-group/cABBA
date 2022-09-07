@@ -99,8 +99,7 @@ void data_to_csv(std::vector<std::pair<std::string, std::vector<T>>>& pairs, std
 std::vector<std::pair<std::string, std::vector<std::string>>> read_csv_to_pairs(std::string filename, bool index=true){
     std::vector<std::pair<std::string, std::vector<std::string>>> pairs;
     std::ifstream read_file(filename);
-    try
-    {
+    try{
         if(!read_file.is_open()) throw std::runtime_error("runtime error! ");
         std::string line, colname;
         std::string val;

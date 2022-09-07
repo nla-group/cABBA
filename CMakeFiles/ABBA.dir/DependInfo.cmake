@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chenxinye/Desktop/TESTSNN/cABBA/runtest.cpp" "/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/ABBA.dir/runtest.cpp.o"
+  "/home/chenxinye/Desktop/TESTSNN/cabba/runtest.cpp" "/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles/ABBA.dir/runtest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/abba.dir/DependInfo.cmake"
+  "/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles/abba.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

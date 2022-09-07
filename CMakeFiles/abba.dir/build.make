@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenxinye/Desktop/TESTSNN/cABBA
+CMAKE_SOURCE_DIR = /home/chenxinye/Desktop/TESTSNN/cabba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenxinye/Desktop/TESTSNN/cABBA
+CMAKE_BINARY_DIR = /home/chenxinye/Desktop/TESTSNN/cabba
 
 # Include any dependencies generated for this target.
 include CMakeFiles/abba.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/abba.dir/flags.make
 
 CMakeFiles/abba.dir/src/ABBA.cpp.o: CMakeFiles/abba.dir/flags.make
 CMakeFiles/abba.dir/src/ABBA.cpp.o: src/ABBA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/abba.dir/src/ABBA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/ABBA.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cABBA/src/ABBA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/abba.dir/src/ABBA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/ABBA.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cabba/src/ABBA.cpp
 
 CMakeFiles/abba.dir/src/ABBA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abba.dir/src/ABBA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cABBA/src/ABBA.cpp > CMakeFiles/abba.dir/src/ABBA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cabba/src/ABBA.cpp > CMakeFiles/abba.dir/src/ABBA.cpp.i
 
 CMakeFiles/abba.dir/src/ABBA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abba.dir/src/ABBA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cABBA/src/ABBA.cpp -o CMakeFiles/abba.dir/src/ABBA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cabba/src/ABBA.cpp -o CMakeFiles/abba.dir/src/ABBA.cpp.s
 
 CMakeFiles/abba.dir/src/compress.cpp.o: CMakeFiles/abba.dir/flags.make
 CMakeFiles/abba.dir/src/compress.cpp.o: src/compress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abba.dir/src/compress.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/compress.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cABBA/src/compress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abba.dir/src/compress.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/compress.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cabba/src/compress.cpp
 
 CMakeFiles/abba.dir/src/compress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abba.dir/src/compress.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cABBA/src/compress.cpp > CMakeFiles/abba.dir/src/compress.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cabba/src/compress.cpp > CMakeFiles/abba.dir/src/compress.cpp.i
 
 CMakeFiles/abba.dir/src/compress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abba.dir/src/compress.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cABBA/src/compress.cpp -o CMakeFiles/abba.dir/src/compress.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cabba/src/compress.cpp -o CMakeFiles/abba.dir/src/compress.cpp.s
 
 CMakeFiles/abba.dir/src/digitization.cpp.o: CMakeFiles/abba.dir/flags.make
 CMakeFiles/abba.dir/src/digitization.cpp.o: src/digitization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/abba.dir/src/digitization.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/digitization.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cABBA/src/digitization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/abba.dir/src/digitization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/digitization.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cabba/src/digitization.cpp
 
 CMakeFiles/abba.dir/src/digitization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abba.dir/src/digitization.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cABBA/src/digitization.cpp > CMakeFiles/abba.dir/src/digitization.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cabba/src/digitization.cpp > CMakeFiles/abba.dir/src/digitization.cpp.i
 
 CMakeFiles/abba.dir/src/digitization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abba.dir/src/digitization.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cABBA/src/digitization.cpp -o CMakeFiles/abba.dir/src/digitization.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cabba/src/digitization.cpp -o CMakeFiles/abba.dir/src/digitization.cpp.s
 
 CMakeFiles/abba.dir/src/global_func.cpp.o: CMakeFiles/abba.dir/flags.make
 CMakeFiles/abba.dir/src/global_func.cpp.o: src/global_func.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/abba.dir/src/global_func.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/global_func.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cABBA/src/global_func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/abba.dir/src/global_func.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/global_func.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cabba/src/global_func.cpp
 
 CMakeFiles/abba.dir/src/global_func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abba.dir/src/global_func.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cABBA/src/global_func.cpp > CMakeFiles/abba.dir/src/global_func.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cabba/src/global_func.cpp > CMakeFiles/abba.dir/src/global_func.cpp.i
 
 CMakeFiles/abba.dir/src/global_func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abba.dir/src/global_func.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cABBA/src/global_func.cpp -o CMakeFiles/abba.dir/src/global_func.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cabba/src/global_func.cpp -o CMakeFiles/abba.dir/src/global_func.cpp.s
 
 CMakeFiles/abba.dir/src/operator_loader.cpp.o: CMakeFiles/abba.dir/flags.make
 CMakeFiles/abba.dir/src/operator_loader.cpp.o: src/operator_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/abba.dir/src/operator_loader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/operator_loader.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cABBA/src/operator_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/abba.dir/src/operator_loader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abba.dir/src/operator_loader.cpp.o -c /home/chenxinye/Desktop/TESTSNN/cabba/src/operator_loader.cpp
 
 CMakeFiles/abba.dir/src/operator_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abba.dir/src/operator_loader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cABBA/src/operator_loader.cpp > CMakeFiles/abba.dir/src/operator_loader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxinye/Desktop/TESTSNN/cabba/src/operator_loader.cpp > CMakeFiles/abba.dir/src/operator_loader.cpp.i
 
 CMakeFiles/abba.dir/src/operator_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abba.dir/src/operator_loader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cABBA/src/operator_loader.cpp -o CMakeFiles/abba.dir/src/operator_loader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxinye/Desktop/TESTSNN/cabba/src/operator_loader.cpp -o CMakeFiles/abba.dir/src/operator_loader.cpp.s
 
 # Object files for target abba
 abba_OBJECTS = \
@@ -140,7 +140,7 @@ libabba.a: CMakeFiles/abba.dir/src/global_func.cpp.o
 libabba.a: CMakeFiles/abba.dir/src/operator_loader.cpp.o
 libabba.a: CMakeFiles/abba.dir/build.make
 libabba.a: CMakeFiles/abba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libabba.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libabba.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/abba.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abba.dir/link.txt --verbose=$(VERBOSE)
 
@@ -154,6 +154,6 @@ CMakeFiles/abba.dir/clean:
 .PHONY : CMakeFiles/abba.dir/clean
 
 CMakeFiles/abba.dir/depend:
-	cd /home/chenxinye/Desktop/TESTSNN/cABBA && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenxinye/Desktop/TESTSNN/cABBA /home/chenxinye/Desktop/TESTSNN/cABBA /home/chenxinye/Desktop/TESTSNN/cABBA /home/chenxinye/Desktop/TESTSNN/cABBA /home/chenxinye/Desktop/TESTSNN/cABBA/CMakeFiles/abba.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chenxinye/Desktop/TESTSNN/cabba && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenxinye/Desktop/TESTSNN/cabba /home/chenxinye/Desktop/TESTSNN/cabba /home/chenxinye/Desktop/TESTSNN/cabba /home/chenxinye/Desktop/TESTSNN/cabba /home/chenxinye/Desktop/TESTSNN/cabba/CMakeFiles/abba.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/abba.dir/depend
 

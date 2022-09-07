@@ -29,7 +29,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-* fABBA -- an accelerated ABBA based on adaptive polygonal chain approximation of time series
+* ABBA -- an accelerated ABBA based on adaptive polygonal chain approximation of time series
 *
 *  Parameters
 *  ----------    
@@ -79,7 +79,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <string>
 
 
-ABBA_MODEL::ABBA_MODEL (double _tol, double _alpha, std::string _sorting,
+ABBA::ABBA (double _tol, double _alpha, std::string _sorting,
             int _scl, int _maxlen, bool _verbose){
     tol = _tol;
     alpha=_alpha;
@@ -90,7 +90,7 @@ ABBA_MODEL::ABBA_MODEL (double _tol, double _alpha, std::string _sorting,
 }
 
 std::vector<std::string> 
-ABBA_MODEL::fit_transform(std::vector<double>& series){
+ABBA::fit_transform(std::vector<double>& series){
     std::vector<std::vector<double> > pieces = compress(series, tol, maxlen, verbose);
     this->parameters = digitize(pieces, alpha, sorting, scl, verbose);
     return this->parameters._symbols;
@@ -98,7 +98,7 @@ ABBA_MODEL::fit_transform(std::vector<double>& series){
 
 
 std::vector<double> 
-ABBA_MODEL::inverse_transform(double& start){
+ABBA::inverse_transform(double& start){
     std::vector<std::vector<double> > r_pieces = inverse_digitize(this->parameters);
     // std::cout << std::endl << "id pieces:" << std::endl; print_matrix("inverse digitization:", r_pieces);
     r_pieces = quantize(r_pieces);
@@ -109,7 +109,7 @@ ABBA_MODEL::inverse_transform(double& start){
 
 
 void 
-ABBA_MODEL::print_parameters(){
+ABBA::print_parameters(){
     print_matrix("Centers: ", this->parameters._centers);
 
     std::cout << std::endl << "Hashmap 1:" << std::endl;

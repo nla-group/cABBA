@@ -4,7 +4,7 @@
 #include "gents.h"
 #include "csvReader.h"
 #include "ABBA.h"
-//#include "dynamicTimeWarping.h"
+//#include "dtw.h"
 using namespace std;
 
 int main(){
@@ -22,7 +22,7 @@ int main(){
     cout << "\n*****************************test 1" << endl; 
     // print_vector(ts);
     auto start = time_point.now();
-    ABBA_MODEL fabba1(tol, alpha, "lexi", 1, series_size, true);
+    ABBA fabba1(tol, alpha, "lexi", 1, series_size, true);
     symbols= fabba1.fit_transform(ts);
     r_fabba_series = fabba1.inverse_transform(ts[0]);
     auto end = time_point.now();
@@ -47,7 +47,7 @@ int main(){
     cout << "\n*****************************test 2" << endl; 
     // print_vector(ts);
     start = time_point.now();
-    ABBA_MODEL fabba2(tol, alpha, "lexi", 1, series_size, true);
+    ABBA fabba2(tol, alpha, "lexi", 1, series_size, true);
     symbols= fabba2.fit_transform(ts);
     r_fabba_series = fabba2.inverse_transform(ts[0]);
     end = time_point.now();

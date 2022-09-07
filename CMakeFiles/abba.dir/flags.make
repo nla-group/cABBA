@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chenxinye/Desktop/TESTSNN/cABBA/include 
+CXX_INCLUDES = -I/home/chenxinye/Desktop/TESTSNN/cabba/include 
 
