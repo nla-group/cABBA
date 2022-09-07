@@ -43,7 +43,7 @@ int main(){
     
     ABBA fabba(tol, alpha, "lexi", 1, series_size, true); // define ABBA object
     symbols= fabba.fit_transform(ts); // transform time series into symbols
-    r_fabba_series = fabba.inverse_transform(ts[0]); // reconstruct time series from symbols
+    reconstruction = fabba.inverse_transform(ts[0]); // reconstruct time series from symbols
     
     return 0;
  }
