@@ -3,7 +3,7 @@
 [![C/C++ CI](https://github.com/nla-group/cabba/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nla-group/cabba/actions/workflows/c-cpp.yml)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-ABBA is an accurate symbolic representation of time series based on an adaptive polygonal chain approximation followed by a mean-based clustering algorithm.. The Python package and detailed description has been shown in [ABBA](https://github.com/nla-group/ABBA) and [fABBA](https://github.com/nla-group/fABBA).  ``cabba`` is undergoing project that contains implementation for ABBA (to be built) and fABBA. 
+ABBA is an accurate symbolic representation of time series based on an adaptive polygonal chain approximation followed by a mean-based clustering algorithm. The Python package and detailed description has been shown in [ABBA](https://github.com/nla-group/ABBA) and [fABBA](https://github.com/nla-group/fABBA).  ``cabba`` is undergoing project that contains implementation for ABBA (to be built) and fABBA. 
 
 ### Install
 Install ``cabba`` simply by:
