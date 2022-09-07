@@ -20,4 +20,5 @@ jobs:
         sudo apt-get install build-essential
         cmake .
         make
-
+    - name: make check
+      run: ./ABBA
