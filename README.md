@@ -55,7 +55,7 @@ int main(){
 
 [2] S. Elsworth and S. Güttel. ABBA: adaptive Brownian bridge-based symbolic aggregation of time series. Data Mining and Knowledge Discovery, 34: 1175-1200, 2020.
 
-Copyright © 2022 NLA group
+
 
 ### License
 All the content in this repository is licensed under the BSD-3 License.
