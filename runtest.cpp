@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-    size_t series_size = 10000; // set 1000 if measured by DTW
+    size_t series_size = 10000; // time series length
     chrono::steady_clock time_point;
     double tol(0.01), alpha(0.01);
     vector<string> symbols;
