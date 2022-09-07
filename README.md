@@ -1,7 +1,7 @@
 ## cabba: An efficient symbolic representation for time series 
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-black.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![C/C++ CI](https://github.com/nla-group/cabba/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nla-group/cabba/actions/workflows/c-cpp.yml)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ABBA is an accurate symbolic time series representation method. The Python package and detailed description has been shown in [ABBA](https://github.com/nla-group/ABBA) and [fABBA](https://github.com/nla-group/fABBA).  ``cabba`` is undergoing project that contains implementation for ABBA (to be built) and fABBA. 
 
