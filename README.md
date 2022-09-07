@@ -58,6 +58,6 @@ int main(){
 
 
 ### License
-All the content in this repository is licensed under the BSD-3 License.
+All the content in this repository is licensed under the New BSD License.
 
 Copyright © 2022 NLA group
