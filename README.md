@@ -49,7 +49,7 @@ int main(){
  }
 ```
 
-You can visit further use in the example of [runtest.cpp](https://github.com/nla-group/cabba/blob/master/runtest.cpp). 
+You can visit further user instruction in the example of [runtest.cpp](https://github.com/nla-group/cabba/blob/master/runtest.cpp). 
 
 
 ### Reference
