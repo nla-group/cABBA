@@ -63,4 +63,4 @@ You can visit further user instruction in the example of [runtest.cpp](https://g
 ### License
 All the content in this repository is licensed under the New BSD License.
 
-Copyright © 2022 NLA group
+Copyright © 2022 [nla group](https://nla-group.org/)
